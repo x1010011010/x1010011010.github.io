@@ -1,0 +1,35 @@
+.p1 {color:rgb(100, 128, 0)}
+.p2 {color:skyblue}
+.p3 {
+    color:darkorange;
+    font-size: 48px;
+}
+
+h1 {font-size: 60px;}
+h2 {font-size: 40px;}
+
+a:hover {color:red}
+a {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('MaShanZheng-Regular.ttf') format('truetype');
+}
+
+html {
+    font-size: 16px;
+    font-family: "CustomFont", sans-serif;
+}
+
+p {
+  font-size: 32px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+  
+audio {
+    width: 324px;
+}
