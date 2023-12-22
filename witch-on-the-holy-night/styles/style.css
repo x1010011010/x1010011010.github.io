@@ -5,7 +5,13 @@
     font-size: 48px;
 }
 
-h1 {font-size: 60px;}
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 2px 2px 1px black;
+}  
 h2 {font-size: 40px;}
 
 a:hover {color:red}
@@ -20,9 +26,18 @@ a {
 }
 
 html {
+    background-color: aliceblue;
     font-size: 16px;
     font-family: "CustomFont", sans-serif;
 }
+
+body {
+    width: auto;
+    margin: 0 auto;
+    /* background-color: #ff9500; */
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }  
 
 p {
   font-size: 32px;
@@ -33,3 +48,8 @@ p {
 audio {
     width: 324px;
 }
+
+/* video {
+    display: block;
+    margin: 0 auto;
+} */
