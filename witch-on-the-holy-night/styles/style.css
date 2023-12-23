@@ -4,15 +4,24 @@
     color:darkorange;
     font-size: 48px;
 }
+.p4 {margin: 0; font-size: 32px;}
 
 h1 {
+    font-size: 90px;
+    margin: 0;
+    padding: 20px 0;
+    color: #9f3800;
+    text-shadow: 2px 2px 1px coral;
+    text-align: center;
+}
+h2 {
     font-size: 60px;
     margin: 0;
     padding: 20px 0;
     color: #00539f;
     text-shadow: 2px 2px 1px black;
 }  
-h2 {font-size: 40px;}
+h3 {font-size: 40px;}
 
 a:hover {color:red}
 a {
